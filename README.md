@@ -1,6 +1,8 @@
 # IranBankEnum
 Get Bank Name by Card and IBAN Number
 
+نمايش نام بانك از روي شماره كارت و شماره شبا
+
     بانک توسعه صادرات ایران
     بانک کارآفرین
     بانک سپه

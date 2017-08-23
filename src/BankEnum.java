@@ -58,7 +58,7 @@ public enum BankEnum {
 
             return getBankEnumByCardFormat(cardFormat);
         } catch (Exception ex) {
-            ThisApp.logException(ex);
+            Log.d("error",ex.getMessage());
             return Na;
         }
     }
@@ -76,7 +76,7 @@ public enum BankEnum {
             return getBankEnumByShebaFormat(shebaFormat);
 
         } catch (Exception ex) {
-            ThisApp.logException(ex);
+            Log.d("error",ex.getMessage());
             return Na;
         }
     }
@@ -161,7 +161,7 @@ public enum BankEnum {
             }
         }
         catch (Exception ex){
-            ThisApp.logException(ex);
+            Log.d("error",ex.getMessage());
             return "";
         }
     }
@@ -249,7 +249,7 @@ public enum BankEnum {
                     return new String[]{"0"};
             }
         } catch (Exception ex) {
-            ThisApp.logException(ex);
+            Log.d("error",ex.getMessage());
             return new String[]{"0"};
         }
     }
@@ -333,7 +333,7 @@ public enum BankEnum {
                     return new String[]{"0"};
             }
         } catch (Exception ex) {
-            ThisApp.logException(ex);
+            Log.d("error",ex.getMessage());
             return new String[]{"0"};
         }
     }
@@ -423,7 +423,7 @@ public enum BankEnum {
                     return Na;
             }
         } catch (Exception ex) {
-            ThisApp.logException(ex);
+            Log.d("error",ex.getMessage());
             return Na;
         }
     }
@@ -505,7 +505,7 @@ public enum BankEnum {
                     return Na;
             }
         } catch (Exception ex) {
-            ThisApp.logException(ex);
+            Log.d("error",ex.getMessage());
             return Na;
         }
     }
@@ -552,7 +552,7 @@ public enum BankEnum {
                 return true;
             return false;
         } catch (Exception ex) {
-            ThisApp.logException(ex);
+            Log.d("error",ex.getMessage());
             return false;
         }
     }
@@ -583,7 +583,7 @@ public enum BankEnum {
             return sheba;
 
         } catch (Exception ex) {
-            ThisApp.logException(ex);
+            Log.d("error",ex.getMessage());
             return null;
 
         }

@@ -1,7 +1,5 @@
 import java.math.BigInteger;
 
-import iid.financialbroker.helper.ThisApp;
-
 /**
  * Created by badrnezhad on 8/23/2017.
  */
